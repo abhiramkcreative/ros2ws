@@ -1,2 +1,0 @@
-Invoking command in '/home/abhiramk/ros2ws/build/ros2_pubsub': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhiramk/ros2ws/build/ros2_pubsub -- -j12 -l12
-Invoked command in '/home/abhiramk/ros2ws/build/ros2_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhiramk/ros2ws/build/ros2_pubsub -- -j12 -l12

@@ -1,6 +1,0 @@
-Invoking command in '/home/abhiramk/ros2ws/build/ros2_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abhiramk/ros2ws/src/ros2_pubsub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abhiramk/ros2ws/install/ros2_pubsub
-Invoked command in '/home/abhiramk/ros2ws/build/ros2_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abhiramk/ros2ws/src/ros2_pubsub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/abhiramk/ros2ws/install/ros2_pubsub
-Invoking command in '/home/abhiramk/ros2ws/build/ros2_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhiramk/ros2ws/build/ros2_pubsub -- -j12 -l12
-Invoked command in '/home/abhiramk/ros2ws/build/ros2_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhiramk/ros2ws/build/ros2_pubsub -- -j12 -l12
-Invoking command in '/home/abhiramk/ros2ws/build/ros2_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abhiramk/ros2ws/build/ros2_pubsub
-Invoked command in '/home/abhiramk/ros2ws/build/ros2_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abhiramk/ros2ws/build/ros2_pubsub
