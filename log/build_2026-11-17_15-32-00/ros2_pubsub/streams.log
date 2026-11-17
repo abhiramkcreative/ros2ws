@@ -1,0 +1,38 @@
+[0.009s] Invoking command in '/home/abhiramk/ros2ws/build/ros2_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abhiramk/ros2ws/src/ros2_pubsub -DCMAKE_INSTALL_PREFIX=/home/abhiramk/ros2ws/install/ros2_pubsub
+[0.067s] -- The C compiler identification is GNU 13.3.0
+[0.116s] -- The CXX compiler identification is GNU 13.3.0
+[0.129s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.506s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.531s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.540s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.609s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.611s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.681s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.694s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.766s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.775s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.786s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.002s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[1.003s]   Packages installing interfaces must include
+[1.004s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.004s]   package.xml
+[1.004s] Call Stack (most recent call first):
+[1.004s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.004s] 
+[1.004s] [0m
+[1.004s] -- Configuring incomplete, errors occurred!
+[1.015s] Invoked command in '/home/abhiramk/ros2ws/build/ros2_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abhiramk/ros2ws/src/ros2_pubsub -DCMAKE_INSTALL_PREFIX=/home/abhiramk/ros2ws/install/ros2_pubsub

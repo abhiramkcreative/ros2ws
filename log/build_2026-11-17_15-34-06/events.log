@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000942] (ros2_pubsub) JobQueued: {'identifier': 'ros2_pubsub', 'dependencies': OrderedDict()}
+[0.000978] (ros2_pubsub) JobStarted: {'identifier': 'ros2_pubsub'}
+[0.008323] (ros2_pubsub) JobProgress: {'identifier': 'ros2_pubsub', 'progress': 'cmake'}
+[0.008683] (ros2_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/abhiramk/ros2ws/src/ros2_pubsub', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/abhiramk/ros2ws/install/ros2_pubsub'], 'cwd': '/home/abhiramk/ros2ws/build/ros2_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2184-0-abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx_TIME48230', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abhiramk', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abhiramk', 'OLDPWD': '/home/abhiramk/ros2ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1796', 'SYSTEMD_EXEC_PID': '2184', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3056', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abhiramk', 'JOURNAL_STREAM': '10:12235', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abhiramk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx:@/tmp/.ICE-unix/2152,unix/abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx:/tmp/.ICE-unix/2152', 'INVOCATION_ID': 'aebca194ae454ebb91baa1c892bc6763', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cd8b2754-8782-4aa9-997b-2e6bfa43e598', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abhiramk/ros2ws/build/ros2_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.059628] (ros2_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.100022] (-) TimerEvent: {}
+[0.114671] (ros2_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.132077] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200114] (-) TimerEvent: {}
+[0.222349] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.231022] (ros2_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.231257] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231639] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.241276] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300229] (-) TimerEvent: {}
+[0.338878] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.348440] (ros2_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.348662] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.349055] (ros2_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.350907] (ros2_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400316] (-) TimerEvent: {}
+[0.459478] (ros2_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500403] (-) TimerEvent: {}
+[0.538140] (ros2_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.562977] (ros2_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.571152] (ros2_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.580892] (ros2_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.591664] (ros2_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600471] (-) TimerEvent: {}
+[0.641566] (ros2_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.643305] (ros2_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700632] (-) TimerEvent: {}
+[0.721343] (ros2_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.735836] (ros2_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.753527] (ros2_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800722] (-) TimerEvent: {}
+[0.807622] (ros2_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.817154] (ros2_pubsub) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.828200] (ros2_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.900849] (-) TimerEvent: {}
+[1.001153] (-) TimerEvent: {}
+[1.101416] (-) TimerEvent: {}
+[1.201681] (-) TimerEvent: {}
+[1.301877] (-) TimerEvent: {}
+[1.302222] (ros2_pubsub) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.401962] (-) TimerEvent: {}
+[1.502203] (-) TimerEvent: {}
+[1.602462] (-) TimerEvent: {}
+[1.702733] (-) TimerEvent: {}
+[1.803007] (-) TimerEvent: {}
+[1.903345] (-) TimerEvent: {}
+[1.928277] (ros2_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.003492] (-) TimerEvent: {}
+[2.103814] (-) TimerEvent: {}
+[2.183078] (ros2_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.190265] (ros2_pubsub) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.203883] (-) TimerEvent: {}
+[2.301888] (ros2_pubsub) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.303951] (-) TimerEvent: {}
+[2.404128] (-) TimerEvent: {}
+[2.504410] (-) TimerEvent: {}
+[2.604735] (-) TimerEvent: {}
+[2.690621] (ros2_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.704852] (-) TimerEvent: {}
+[2.754287] (ros2_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.756170] (ros2_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.774993] (ros2_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.776203] (ros2_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.778509] (ros2_pubsub) StdoutLine: {'line': b'-- Configuring done (2.8s)\n'}
+[2.804934] (ros2_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.805216] (-) TimerEvent: {}
+[2.808671] (ros2_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[2.808836] (ros2_pubsub) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[2.808920] (ros2_pubsub) StderrLine: {'line': b'\n'}
+[2.808961] (ros2_pubsub) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[2.809001] (ros2_pubsub) StderrLine: {'line': b'\n'}
+[2.809035] (ros2_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[2.816363] (ros2_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/abhiramk/ros2ws/build/ros2_pubsub\n'}
+[2.829202] (ros2_pubsub) CommandEnded: {'returncode': 0}
+[2.829650] (ros2_pubsub) JobProgress: {'identifier': 'ros2_pubsub', 'progress': 'build'}
+[2.830108] (ros2_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abhiramk/ros2ws/build/ros2_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/abhiramk/ros2ws/build/ros2_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2184-0-abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx_TIME48230', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abhiramk', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abhiramk', 'OLDPWD': '/home/abhiramk/ros2ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1796', 'SYSTEMD_EXEC_PID': '2184', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3056', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abhiramk', 'JOURNAL_STREAM': '10:12235', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abhiramk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx:@/tmp/.ICE-unix/2152,unix/abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx:/tmp/.ICE-unix/2152', 'INVOCATION_ID': 'aebca194ae454ebb91baa1c892bc6763', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cd8b2754-8782-4aa9-997b-2e6bfa43e598', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abhiramk/ros2ws/build/ros2_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.877489] (ros2_pubsub) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.877668] (ros2_pubsub) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.886379] (ros2_pubsub) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_ros2_pubsub\n'}
+[2.905317] (-) TimerEvent: {}
+[3.005566] (-) TimerEvent: {}
+[3.026867] (ros2_pubsub) StdoutLine: {'line': b'[  5%] Built target ros2_pubsub__rs\n'}
+[3.029256] (ros2_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.030040] (ros2_pubsub) StdoutLine: {'line': b'creating ros2_pubsub.egg-info\n'}
+[3.041004] (ros2_pubsub) StdoutLine: {'line': b'[  5%] Built target ros2_pubsub__rosidl_generator_type_description\n'}
+[3.043143] (ros2_pubsub) StdoutLine: {'line': b'writing ros2_pubsub.egg-info/PKG-INFO\n'}
+[3.043308] (ros2_pubsub) StdoutLine: {'line': b'writing dependency_links to ros2_pubsub.egg-info/dependency_links.txt\n'}
+[3.043444] (ros2_pubsub) StdoutLine: {'line': b'writing top-level names to ros2_pubsub.egg-info/top_level.txt\n'}
+[3.043535] (ros2_pubsub) StdoutLine: {'line': b"writing manifest file 'ros2_pubsub.egg-info/SOURCES.txt'\n"}
+[3.051438] (ros2_pubsub) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.061197] (ros2_pubsub) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.074159] (ros2_pubsub) StdoutLine: {'line': b"reading manifest file 'ros2_pubsub.egg-info/SOURCES.txt'\n"}
+[3.074515] (ros2_pubsub) StdoutLine: {'line': b"writing manifest file 'ros2_pubsub.egg-info/SOURCES.txt'\n"}
+[3.099927] (ros2_pubsub) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_ros2_pubsub_egg\n'}
+[3.105652] (-) TimerEvent: {}
+[3.205070] (ros2_pubsub) StdoutLine: {'line': b'[ 11%] Built target ros2_pubsub__cpp\n'}
+[3.205720] (-) TimerEvent: {}
+[3.234079] (ros2_pubsub) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub__rosidl_generator_c.dir/rosidl_generator_c/ros2_pubsub/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[3.234268] (ros2_pubsub) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub__rosidl_generator_c.dir/rosidl_generator_c/ros2_pubsub/msg/detail/robot_status__description.c.o\x1b[0m\n'}
+[3.235357] (ros2_pubsub) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub__rosidl_generator_c.dir/rosidl_generator_c/ros2_pubsub/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[3.292860] (ros2_pubsub) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libros2_pubsub__rosidl_generator_c.so\x1b[0m\n'}
+[3.305815] (-) TimerEvent: {}
+[3.344771] (ros2_pubsub) StdoutLine: {'line': b'[ 22%] Built target ros2_pubsub__rosidl_generator_c\n'}
+[3.353038] (ros2_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.353299] (ros2_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.354448] (ros2_pubsub) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.355017] (ros2_pubsub) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.355328] (ros2_pubsub) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.355907] (ros2_pubsub) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.405900] (-) TimerEvent: {}
+[3.506192] (-) TimerEvent: {}
+[3.520289] (ros2_pubsub) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pubsub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pubsub/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.525341] (ros2_pubsub) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pubsub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pubsub/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[3.560247] (ros2_pubsub) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pubsub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pubsub/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[3.570161] (ros2_pubsub) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pubsub__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pubsub/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[3.572352] (ros2_pubsub) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pubsub/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[3.575408] (ros2_pubsub) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pubsub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pubsub/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[3.601323] (ros2_pubsub) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libros2_pubsub__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.606298] (-) TimerEvent: {}
+[3.616128] (ros2_pubsub) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pubsub__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.633792] (ros2_pubsub) StdoutLine: {'line': b'[ 62%] Built target ros2_pubsub__rosidl_typesupport_introspection_c\n'}
+[3.660311] (ros2_pubsub) StdoutLine: {'line': b'[ 62%] Built target ros2_pubsub__rosidl_typesupport_c\n'}
+[3.706413] (-) TimerEvent: {}
+[3.806783] (-) TimerEvent: {}
+[3.834849] (ros2_pubsub) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pubsub__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.836486] (ros2_pubsub) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pubsub__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.891367] (ros2_pubsub) StdoutLine: {'line': b'[ 68%] Built target ros2_pubsub__rosidl_typesupport_cpp\n'}
+[3.900705] (ros2_pubsub) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pubsub__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.906891] (-) TimerEvent: {}
+[3.911871] (ros2_pubsub) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pubsub__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.917198] (ros2_pubsub) StdoutLine: {'line': b'[ 74%] Built target ros2_pubsub__rosidl_typesupport_introspection_cpp\n'}
+[3.970112] (ros2_pubsub) StdoutLine: {'line': b'[ 74%] Built target ros2_pubsub__rosidl_typesupport_fastrtps_cpp\n'}
+[3.980901] (ros2_pubsub) StdoutLine: {'line': b'[ 74%] Built target ros2_pubsub__rosidl_typesupport_fastrtps_c\n'}
+[3.998618] (ros2_pubsub) StdoutLine: {'line': b'[ 74%] Built target ros2_pubsub\n'}
+[4.006970] (-) TimerEvent: {}
+[4.018985] (ros2_pubsub) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.107102] (-) TimerEvent: {}
+[4.185317] (ros2_pubsub) StdoutLine: {'line': b'[ 77%] Built target ros2_pubsub__py\n'}
+[4.203691] (ros2_pubsub) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub__rosidl_generator_py.dir/rosidl_generator_py/ros2_pubsub/msg/_robot_status_s.c.o\x1b[0m\n'}
+[4.207167] (-) TimerEvent: {}
+[4.307409] (-) TimerEvent: {}
+[4.336361] (ros2_pubsub) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libros2_pubsub__rosidl_generator_py.so\x1b[0m\n'}
+[4.387651] (ros2_pubsub) StdoutLine: {'line': b'[ 82%] Built target ros2_pubsub__rosidl_generator_py\n'}
+[4.406223] (ros2_pubsub) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.406488] (ros2_pubsub) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.406583] (ros2_pubsub) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros2_pubsub_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.407470] (-) TimerEvent: {}
+[4.477220] (ros2_pubsub) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.481878] (ros2_pubsub) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.503500] (ros2_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.504327] (ros2_pubsub) StdoutLine: {'line': b'[100%] Built target ros2_pubsub_s__rosidl_typesupport_c\n'}
+[4.507557] (-) TimerEvent: {}
+[4.514732] (ros2_pubsub) StdoutLine: {'line': b'[100%] Built target ros2_pubsub_s__rosidl_typesupport_introspection_c\n'}
+[4.531791] (ros2_pubsub) StdoutLine: {'line': b'[100%] Built target ros2_pubsub_s__rosidl_typesupport_fastrtps_c\n'}
+[4.541921] (ros2_pubsub) CommandEnded: {'returncode': 0}
+[4.542887] (ros2_pubsub) JobProgress: {'identifier': 'ros2_pubsub', 'progress': 'install'}
+[4.551114] (ros2_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abhiramk/ros2ws/build/ros2_pubsub'], 'cwd': '/home/abhiramk/ros2ws/build/ros2_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2184-0-abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx_TIME48230', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abhiramk', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abhiramk', 'OLDPWD': '/home/abhiramk/ros2ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1796', 'SYSTEMD_EXEC_PID': '2184', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3056', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abhiramk', 'JOURNAL_STREAM': '10:12235', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abhiramk', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx:@/tmp/.ICE-unix/2152,unix/abhiramk-Victus-by-HP-Gaming-Laptop-15-fb3xxx:/tmp/.ICE-unix/2152', 'INVOCATION_ID': 'aebca194ae454ebb91baa1c892bc6763', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cd8b2754-8782-4aa9-997b-2e6bfa43e598', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abhiramk/ros2ws/build/ros2_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.574116] (ros2_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.574536] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/rosidl_interfaces/ros2_pubsub\n'}
+[4.574952] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/msg/RobotStatus.json\n'}
+[4.575277] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub\n'}
+[4.575448] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg\n'}
+[4.575536] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail\n'}
+[4.575668] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__struct.h\n'}
+[4.575801] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__functions.c\n'}
+[4.575922] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__functions.h\n'}
+[4.576035] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.h\n'}
+[4.576160] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.c\n'}
+[4.576290] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__description.c\n'}
+[4.576420] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/robot_status.h\n'}
+[4.576545] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.576740] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/library_path.sh\n'}
+[4.576899] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/library_path.dsv\n'}
+[4.577114] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_generator_c.so\n'}
+[4.577579] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_generator_c.so" to ""\n'}
+[4.577673] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub\n'}
+[4.577735] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg\n'}
+[4.577820] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail\n'}
+[4.577884] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.577968] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.578080] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_fastrtps_c.so\n'}
+[4.578555] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.578641] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub\n'}
+[4.578710] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg\n'}
+[4.578763] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.578823] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail\n'}
+[4.578906] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__builder.hpp\n'}
+[4.579005] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__traits.hpp\n'}
+[4.579131] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.hpp\n'}
+[4.579258] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__struct.hpp\n'}
+[4.579386] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/robot_status.hpp\n'}
+[4.579531] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub\n'}
+[4.579596] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg\n'}
+[4.579671] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail\n'}
+[4.579721] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.579784] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/dds_fastrtps\n'}
+[4.579899] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.580075] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.580472] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.580539] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub\n'}
+[4.580623] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg\n'}
+[4.580681] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail\n'}
+[4.580734] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.c\n'}
+[4.580797] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[4.580858] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.580931] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_introspection_c.so\n'}
+[4.581251] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.581324] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_c.so\n'}
+[4.581596] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_c.so" to ""\n'}
+[4.581660] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub\n'}
+[4.581710] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg\n'}
+[4.581775] (ros2_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail\n'}
+[4.581835] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.cpp\n'}
+[4.581896] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.581955] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_introspection_cpp.so\n'}
+[4.582282] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.582347] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_cpp.so\n'}
+[4.582609] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_typesupport_cpp.so" to ""\n'}
+[4.582674] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/pythonpath.sh\n'}
+[4.582737] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/pythonpath.dsv\n'}
+[4.582824] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info\n'}
+[4.582912] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[4.582997] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[4.583067] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[4.583140] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[4.583240] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub\n'}
+[4.583319] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_introspection_c.so\n'}
+[4.583414] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.583477] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_c.c\n'}
+[4.583542] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.so\n'}
+[4.583626] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.583703] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/__init__.py\n'}
+[4.583771] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg\n'}
+[4.583860] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/_robot_status.py\n'}
+[4.583931] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/__init__.py\n'}
+[4.584005] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/_robot_status_s.c\n'}
+[4.584072] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_c.so\n'}
+[4.607680] (-) TimerEvent: {}
+[4.615282] (ros2_pubsub) StdoutLine: {'line': b"Listing '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub'...\n"}
+[4.615563] (ros2_pubsub) StdoutLine: {'line': b"Compiling '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/__init__.py'...\n"}
+[4.615676] (ros2_pubsub) StdoutLine: {'line': b"Listing '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg'...\n"}
+[4.615775] (ros2_pubsub) StdoutLine: {'line': b"Compiling '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/__init__.py'...\n"}
+[4.615889] (ros2_pubsub) StdoutLine: {'line': b"Compiling '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/_robot_status.py'...\n"}
+[4.620081] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.so\n'}
+[4.620598] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.620922] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_introspection_c.so\n'}
+[4.621200] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.621338] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_c.so\n'}
+[4.621564] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_c.so" to ""\n'}
+[4.621654] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_generator_py.so\n'}
+[4.621913] (ros2_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub__rosidl_generator_py.so" to ""\n'}
+[4.622008] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust\n'}
+[4.622066] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/build.rs\n'}
+[4.622143] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src\n'}
+[4.622225] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/lib.rs\n'}
+[4.622309] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/msg\n'}
+[4.622364] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/msg/rmw.rs\n'}
+[4.622414] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/msg.rs\n'}
+[4.622482] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/Cargo.toml\n'}
+[4.622563] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/msg/RobotStatus.idl\n'}
+[4.622643] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/msg/RobotStatus.msg\n'}
+[4.622737] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/package_run_dependencies/ros2_pubsub\n'}
+[4.622902] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/parent_prefix_path/ros2_pubsub\n'}
+[4.623056] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/ament_prefix_path.sh\n'}
+[4.623181] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/ament_prefix_path.dsv\n'}
+[4.623276] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/path.sh\n'}
+[4.623341] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/path.dsv\n'}
+[4.623425] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.bash\n'}
+[4.623482] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.sh\n'}
+[4.623558] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.zsh\n'}
+[4.623637] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.dsv\n'}
+[4.623707] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/package.dsv\n'}
+[4.623799] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/packages/ros2_pubsub\n'}
+[4.623926] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_generator_cExport.cmake\n'}
+[4.624049] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.624157] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.624285] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.624390] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_generator_cppExport.cmake\n'}
+[4.624474] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.624573] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.624712] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.624856] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.624985] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_cExport.cmake\n'}
+[4.625084] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.625218] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.625349] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.625496] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_cppExport.cmake\n'}
+[4.625606] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.625726] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_generator_pyExport.cmake\n'}
+[4.625806] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.625928] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake-extras.cmake\n'}
+[4.626025] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.626122] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.626213] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.626309] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.626374] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.626436] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.626518] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[4.626587] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsubConfig.cmake\n'}
+[4.626638] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsubConfig-version.cmake\n'}
+[4.626703] (ros2_pubsub) StdoutLine: {'line': b'-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/package.xml\n'}
+[4.629123] (ros2_pubsub) CommandEnded: {'returncode': 0}
+[4.644139] (ros2_pubsub) JobEnded: {'identifier': 'ros2_pubsub', 'rc': 0}
+[4.645043] (-) EventReactorShutdown: {}

@@ -1,0 +1,208 @@
+[  5%] Built target ros2_pubsub_msgs__rs
+[  5%] Built target ros2_pubsub_msgs__rosidl_generator_type_description
+[  5%] Built target ament_cmake_python_copy_ros2_pubsub
+[  7%] Built target ros2_pubsub_msgs__cpp
+[ 20%] Built target ros2_pubsub_msgs__rosidl_generator_c
+[ 28%] Built target ros2_pubsub_msgs__rosidl_typesupport_introspection_c
+[ 35%] Built target ros2_pubsub_msgs__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target ros2_pubsub_msgs__rosidl_typesupport_fastrtps_c
+[ 51%] Built target ros2_pubsub_msgs__rosidl_typesupport_c
+[ 58%] Built target ros2_pubsub_msgs__rosidl_typesupport_introspection_cpp
+[ 66%] Built target ros2_pubsub_msgs__rosidl_typesupport_cpp
+[ 69%] Built target ros2_pubsub_msgs
+[ 71%] Built target publisher
+[ 74%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 76%] Built target ros2_pubsub_msgs__py
+[ 82%] Built target ros2_pubsub_msgs__rosidl_generator_py
+[ 87%] Built target ros2_pubsub_s__rosidl_typesupport_fastrtps_c
+[ 92%] Built target ros2_pubsub_s__rosidl_typesupport_c
+[ 97%] Built target ros2_pubsub_s__rosidl_typesupport_introspection_c
+running egg_info
+writing ros2_pubsub.egg-info/PKG-INFO
+writing dependency_links to ros2_pubsub.egg-info/dependency_links.txt
+writing top-level names to ros2_pubsub.egg-info/top_level.txt
+reading manifest file 'ros2_pubsub.egg-info/SOURCES.txt'
+writing manifest file 'ros2_pubsub.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_ros2_pubsub_egg
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+                 from [01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:1[m[K:
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:[m[K In member function ‘[01m[Kvoid SubscriberNode::[01;32m[Ktopic_callback[m[K(const ros2_pubsub::msg::RobotStatus&) const[m[K’:
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:35:[m[K [01;35m[Kwarning: [m[KISO C++11 does not support the ‘[01m[K%b[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   14 |         RCLCPP_INFO(get_logger(), [01;35m[K"\nRobot %d is at %.4f% battery. Status: %s\n"[m[K, message.robot_id, message.battery_level, message.status_message);
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   14 |         RCLCPP_INFO(get_logger(), "\nRobot %d is at %.4f% [01;36m[Kb[m[Kattery. Status: %s\n", message.robot_id, message.battery_level, message.status_message);
+      |                                                           [01;36m[K^[m[K
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:35:[m[K [01;35m[Kwarning: [m[K' ' flag used with ‘[01m[K%b[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   14 |         RCLCPP_INFO(get_logger(), [01;35m[K"\nRobot %d is at %.4f% battery. Status: %s\n"[m[K, message.robot_id, message.battery_level, message.status_message);
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   14 |         RCLCPP_INFO(get_logger(), "\nRobot %d is at %.4f% [01;36m[Kb[m[Kattery. Status: %s\n", message.robot_id, message.battery_level, message.status_message);
+      |                                                           [01;36m[K^[m[K
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%b[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 7 has type ‘[01m[Kconst ros2_pubsub::msg::RobotStatus_<std::allocator<void> >::_status_message_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   14 |         RCLCPP_INFO(get_logger(), [01;35m[K"\nRobot %d is at %.4f% battery. Status: %s\n"[m[K, message.robot_id, message.battery_level, message.status_message);
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   14 |         RCLCPP_INFO(get_logger(), "\nRobot %d is at %.4f[01;36m[K% b[m[Kattery. Status: %s\n", message.robot_id, message.battery_level, message.status_message);
+      |                                                         [01;36m[K~~^[m[K
+      |                                                           [01;36m[K|[m[K
+      |                                                           [01;36m[Kunsigned int[m[K
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   14 |         RCLCPP_INFO(get_logger(), [01;35m[K"\nRobot %d is at %.4f% battery. Status: %s\n"[m[K, message.robot_id, message.battery_level, message.status_message);
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abhiramk/ros2ws/src/ros2_pubsub/src/subscriber.cpp:14:77:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   14 |         RCLCPP_INFO(get_logger(), "\nRobot %d is at %.4f% battery. Status: [01;36m[K%s[m[K\n", message.robot_id, message.battery_level, message.status_message);
+      |                                                                            [01;36m[K~^[m[K
+      |                                                                             [01;36m[K|[m[K
+      |                                                                             [01;36m[Kchar*[m[K
+[100%] [32m[1mLinking CXX executable subscriber[0m
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/rosidl_interfaces/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/msg/RobotStatus.json
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__struct.h
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__functions.c
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__functions.h
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.h
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.c
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__description.c
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/robot_status.h
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/library_path.sh
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/library_path.dsv
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__builder.hpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__traits.hpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.hpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__struct.hpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/robot_status.hpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/dds_fastrtps
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.c
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__type_support.cpp
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/include/ros2_pubsub/ros2_pubsub/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/pythonpath.sh
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/pythonpath.dsv
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/_ros2_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/__init__.py
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/_robot_status.py
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/__init__.py
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/_robot_status_s.c
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_c.so
+Listing '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub'...
+Compiling '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/__init__.py'...
+Listing '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg'...
+Compiling '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/__init__.py'...
+Compiling '/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/msg/_robot_status.py'...
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/python3.12/site-packages/ros2_pubsub/ros2_pubsub_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/libros2_pubsub_msgs__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/build.rs
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/lib.rs
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/msg
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/msg/rmw.rs
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/src/msg.rs
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/rust/Cargo.toml
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/msg/RobotStatus.idl
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/msg/RobotStatus.msg
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/ros2_pubsub/publisher
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/ros2_pubsub/publisher" to ""
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/lib/ros2_pubsub/subscriber
+-- Set non-toolchain portion of runtime path of "/home/abhiramk/ros2ws/install/ros2_pubsub/lib/ros2_pubsub/subscriber" to ""
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/package_run_dependencies/ros2_pubsub
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/parent_prefix_path/ros2_pubsub
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/path.sh
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/environment/path.dsv
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.bash
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.sh
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.zsh
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/local_setup.dsv
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/package.dsv
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ament_index/resource_index/packages/ros2_pubsub
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsub_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/export_ros2_pubsub_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsubConfig.cmake
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/cmake/ros2_pubsubConfig-version.cmake
+-- Up-to-date: /home/abhiramk/ros2ws/install/ros2_pubsub/share/ros2_pubsub/package.xml

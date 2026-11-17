@@ -1,0 +1,7 @@
+{
+  "package_name": "ros2_pubsub",
+  "output_dir": "/home/abhiramk/ros2ws/src/build/ros2_pubsub/rosidl_generator_type_description/ros2_pubsub",
+  "idl_tuples": [
+    "/home/abhiramk/ros2ws/src/build/ros2_pubsub/rosidl_adapter/ros2_pubsub:msg/RobotStatus.idl"
+  ]
+}

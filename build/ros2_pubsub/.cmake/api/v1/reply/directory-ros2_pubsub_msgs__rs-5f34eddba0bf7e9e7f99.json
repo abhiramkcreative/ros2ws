@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_pubsub_msgs__rs",
+		"source" : "/home/abhiramk/ros2ws/build/ros2_pubsub/ros2_pubsub_msgs__rs"
+	}
+}

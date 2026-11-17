@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/abhiramk/ros2ws/build/ros2_pubsub': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhiramk/ros2ws/build/ros2_pubsub -- -j12 -l12
+[0.036s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.109s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.127s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.132s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.199s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.200s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.305s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.313s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.320s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.504s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.660s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.855s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.884s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.886s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake:29 (message):
+[0.886s]   ros2_pubsub_msgs is not a CMake target.  Maybe rosidl_generate_interfaces
+[0.886s]   was given a different target name?
+[0.886s] Call Stack (most recent call first):
+[0.886s]   CMakeLists.txt:24 (rosidl_get_typesupport_target)
+[0.886s] 
+[0.886s] [0m
+[0.886s] -- Configuring incomplete, errors occurred!
+[0.893s] gmake: *** [Makefile:870: cmake_check_build_system] Error 1
+[0.897s] Invoked command in '/home/abhiramk/ros2ws/build/ros2_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abhiramk/ros2ws/build/ros2_pubsub -- -j12 -l12

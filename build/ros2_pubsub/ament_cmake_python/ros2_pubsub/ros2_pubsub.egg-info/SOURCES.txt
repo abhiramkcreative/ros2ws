@@ -1,0 +1,8 @@
+setup.py
+ros2_pubsub/__init__.py
+ros2_pubsub.egg-info/PKG-INFO
+ros2_pubsub.egg-info/SOURCES.txt
+ros2_pubsub.egg-info/dependency_links.txt
+ros2_pubsub.egg-info/top_level.txt
+ros2_pubsub/msg/__init__.py
+ros2_pubsub/msg/_robot_status.py
