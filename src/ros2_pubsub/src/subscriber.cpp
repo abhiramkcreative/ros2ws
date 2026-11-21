@@ -3,14 +3,15 @@
 #include "ros2_pubsub/msg/robot_status.hpp"
 
 using std::placeholders::_1;
+using RobotStatus = ros2_pubsub::msg::RobotStatus;
 
 class SubscriberNode : public rclcpp::Node {
 public:
     SubscriberNode() : Node("subscriber_node") {
-        subscriber_ = create_subscription<ros2_pubsub::msg::RobotStatus>("robot_status", 10, std::bind(&SubscriberNode::topic_callback, this,_1));
+        subscriber_ = create_subscription<RobotStatus>("robot_status", 10, std::bind(&SubscriberNode::topic_callback, this,_1));
     }
 private:
-    void topic_callback(const ros2_pubsub::msg::RobotStatus & message) const {
+    void topic_callback(const RobotStatus & message) const {
         if (message.battery_level <= 0.0f) {
             RCLCPP_WARN(get_logger(), "\nRobot %d is at %.1f%% battery. Status: %s\n", message.robot_id, message.battery_level, message.status_message.c_str());
             RCLCPP_ERROR(get_logger(), "\nRobot battery is fully drained and shut down.\n");
@@ -19,7 +20,7 @@ private:
             RCLCPP_INFO(get_logger(), "\nRobot %d is at %.1f%% battery. Status: %s\n", message.robot_id, message.battery_level, message.status_message.c_str());
         }
         }
-    rclcpp::Subscription<ros2_pubsub::msg::RobotStatus>::SharedPtr subscriber_;
+    rclcpp::Subscription<RobotStatus>::SharedPtr subscriber_;
 };
 
 int main(int argc, char ** argv) {
